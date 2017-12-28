@@ -1,0 +1,1 @@
+document.write("内页右侧250x250")

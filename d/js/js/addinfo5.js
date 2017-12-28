@@ -1,0 +1,1 @@
+document.write("<option value=5>|-诗歌大全</option><option value=6>|-短篇小说</option>");

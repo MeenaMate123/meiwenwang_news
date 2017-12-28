@@ -1,0 +1,1 @@
+document.write("<center>手机版通栏广告（ID：9）</center>")

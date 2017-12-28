@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+<meta http-equiv="Cache-Control" content="no-transform " />
+<title>仿美文网站程序上架-网站公告-美文网</title>
+<meta name="keywords" content="" />
+<meta name="description" content="内核介绍：
+
+使用帝国7.2  UTF-8版二次开发，程序具有极好的稳定，安全，高性能等优点！
+
+
+二次开发功能简介：
+
+1、支持QQ互联登录
+2、整合畅言评论插件
+3、会员系统模版开发
+4、简化" />
+<script src="http://siteapp.baidu.com/static/webappservice/uaredirect.js" type="text/javascript"></script>
+<script type="text/javascript">uaredirect("http://m.demo.52jscn.com/show/3037.html");</script>
+<link rel="stylesheet" type="text/css" href="http://demo.52jscn.com/skin/css/style.css" />
+<script type="text/javascript" src="http://demo.52jscn.com/skin/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://demo.52jscn.com/skin/js/global.js"></script>
+</head>
+<body>
+<div id="header">
+<div id="toolbar"><div class="tool">
+     <div class="left fl"><a href="http://m.demo.52jscn.com/" target="_blank">手机访问</a><a href="http://demo.52jscn.com/new" target="_blank">最新100</a><a href="http://demo.52jscn.com/pic" target="_blank">美图心语</a><a href="http://demo.52jscn.com/sitemap.html" target="_blank">MAP</a><a href="http://demo.52jscn.com/tag.html" target="_blank">TAG</a></div>
+	 <div class="right fr"><script>hello()</script>
+	 欢迎访问美文网！
+	 <a class="ico-25 fr" href="http://demo.52jscn.com/zm.php">保存到桌面</a></div>
+</div></div>
+<div class="head">
+	 <div class="logo fl"><a href="http://demo.52jscn.com/"><img src="http://demo.52jscn.com/skin/img/logo.png" width="280" height="60" alt="仿美文网站程序上架"/></a></div>
+	 <div class="left fr">
+	 <div class="serach fl">
+	 <form class="search-form" id="search_form" action="http://demo.52jscn.com/e/search/" method="post" name="searchform" onsubmit="if(document.getElementById('searchword').value=='请输入搜索内容')return false;">
+	 <input type="hidden" name="show" value="title,keyboard" />
+	 <input type="hidden" name="tempid" value="1" />
+	 <input type="text" name="keyboard" id="q" value="" style="color: rgb(153, 153, 153);" onwebkitspeechchange="jQuery(this).closest('form').submit();" x-webkit-speech=""   onclick="clearCname()" class="search_k fl">
+	 <button type="submit" onClick="return dosearch($('#q').val());" class="search_s fl">搜索</button>
+	 </form>
+	 </div>
+	 <div class="right fr">
+	 <a class="s-weibo" href="http://替换为你的微博网址" title="关注新浪微博" target="_blank"></a>
+	 <a class="t-weibo" href="http://替换为你的微博网址" title="关注腾讯微博" target="_blank"></a>
+	 <a class="i-qzone" href="http://替换为你的QQ空间网址" title="关注认证空间" target="_blank"></a>
+	 <a class="i-marks"  href="javascript:vod(0);" title="加入收藏夹" onclick="favorites('美文网','http://demo.52jscn.com/')" ></a>
+	 <a class="tougao_btn fr i-write" href="http://demo.52jscn.com/e/DoInfo/ChangeClass.php?mid=1" title="在线投稿" target="_blank">在线投稿</a>
+	 </div>
+	 </div><div class="cl"></div>
+</div>
+</div>
+<div class="nav"><ul>
+     <li><a class="ico-01" href="http://demo.52jscn.com/" target="_self">首页</a></li>
+	 	      <li><a href='http://demo.52jscn.com/meiwenxinshang'>美文欣赏</a></li>
+	         <li><a href='http://demo.52jscn.com/wenzhang'>文章荟萃</a></li>
+	         <li><a href='http://demo.52jscn.com/sanwenjingxuan'>散文精选</a></li>
+	         <li><a href='http://demo.52jscn.com/xinqingriji'>心情日记</a></li>
+	         <li><a href='http://demo.52jscn.com/shigedaquan'>诗歌大全</a></li>
+	         <li><a href='http://demo.52jscn.com/duanpianxiaoshuo'>短篇小说</a></li>
+	         <li><a href='http://demo.52jscn.com/gushidaquan'>故事大全</a></li>
+	         <li><a href='http://demo.52jscn.com/haocihaoju'>好词好句</a></li>
+	         <li><a href='http://demo.52jscn.com/zuowendaquan'>作文大全</a></li>
+	   	 <li><a class="iconew" href="http://demo.52jscn.com/new">最近更新</a></li></ul>
+</div>
+<div class="subnav"><ul>
+    	      <li><a href='http://demo.52jscn.com/meiwenxinshang/jingdianmeiwen'>经典美文</a></li>
+	         <li><a href='http://demo.52jscn.com/meiwenxinshang/meiwenzhaichao'>美文摘抄</a></li>
+	         <li><a href='http://demo.52jscn.com/meiwenxinshang/qingganmeiwen'>情感美文</a></li>
+	         <li><a href='http://demo.52jscn.com/wenzhang/baijiazatan'>百家杂谈</a></li>
+	         <li><a href='http://demo.52jscn.com/sanwenjingxuan/sanwensuibi'>散文随笔</a></li>
+	         <li><a href='http://demo.52jscn.com/sanwenjingxuan/youmeisanwen'>优美散文</a></li>
+	         <li><a href='http://demo.52jscn.com/meiwenxinshang/shangganmeiwen'>伤感美文</a></li>
+	         <li><a href='http://demo.52jscn.com/meiwenxinshang/aiqingmeiwen'>爱情美文</a></li>
+	         <li><a href='http://demo.52jscn.com/meiwenxinshang/yuanchuangmeiwen'>原创美文</a></li>
+	         <li><a href='http://demo.52jscn.com/wenzhang/aiqingwenzhang'>爱情文章</a></li>
+	         <li><a href='http://demo.52jscn.com/wenzhang/qinqingwenzhang'>亲情文章</a></li>
+	         <li><a href='http://demo.52jscn.com/wenzhang/youqingwenzhang'>友情文章</a></li>
+	         <li><a href='http://demo.52jscn.com/wenzhang/xinqingwenzhang'>心情文章</a></li>
+	         <li><a href='http://demo.52jscn.com/wenzhang/lizhiwenzhang'>励志文章</a></li>
+	         <li><a href='http://demo.52jscn.com/sanwenjingxuan/shuqingsanwen'>抒情散文</a></li>
+	         <li><a href='http://demo.52jscn.com/sanwenjingxuan/jingdiansanwen'>经典散文</a></li>
+	         <li><a href='http://demo.52jscn.com/sanwenjingxuan/aiqingziwei'>爱情滋味</a></li>
+	         <li><a href='http://demo.52jscn.com/sanwenjingxuan/ganwushenghuo'>感悟生活</a></li>
+	         <li><a href='http://demo.52jscn.com/xinqingriji/suibi'>随笔</a></li>
+	         <li><a href='http://demo.52jscn.com/xinqingriji/xingfu'>幸福</a></li>
+	         <li><a href='http://demo.52jscn.com/xinqingriji/kuaile'>快乐</a></li>
+	         <li><a href='http://demo.52jscn.com/xinqingriji/ganshang'>感伤</a></li>
+	   	 </ul>
+</div>
+<script type="text/javascript" src="http://demo.52jscn.com/skin/js/show.js"></script>
+<div class="container list_repeat">
+<div class="container-bd list_top">
+     <div class="main-wrap">
+	 <div class="article-left">
+	 <div class="title"><h3>当前位置</h3>：<a href="http://demo.52jscn.com/">首页</a>&nbsp;>&nbsp;<a href="http://demo.52jscn.com/gonggao/">网站公告</a> > <a href="http://www.baidu.com/s?wd=仿美文网站程序上架-美文网" target="_blank">仿美文网站程序上架</a></div>
+	 <div class="list-item">
+	 <div class="content">	 
+	 <div class="_title"><h1>仿美文网站程序上架</h1></div>
+	 <div class="info">
+	 <span><i class="ico-19"></i>推荐人：</span>
+	 <span><i class="ico-20"></i>来源: </span>
+	 <span><i class="ico-21"></i>时间: 2015-07-07 05:46</span>
+	 <span><i class="ico-22"></i>阅读: <script src="http://demo.52jscn.com/e/public/ViewClick/?classid=69&id=3037&addclick=1&down=8"></script>次</span>
+	 <span><i class="ico-23"></i><a href="javascript:doZoom(18);">大</a> <a href="javascript:doZoom(16);">中</a> <a href="javascript:doZoom(14);">小</a></span>
+	 </div><!-- info -->
+	 <div class="article">
+	 <div id="zoomtext" oncopy="copy();">
+	 	 <div class='ad-300'><script src="http://demo.52jscn.com/d/js/acmsd/thea6.js"></script></div>
+	 	 
+	 <p><br />
+<strong>内核介绍：</strong><br />
+<br />
+使用帝国7.2  UTF-8版二次开发，程序具有极好的稳定，安全，高性能等优点！<br />
+<br />
+<br />
+二次开发功能简介：<br />
+<br />
+1、支持QQ互联登录<br />
+2、整合畅言评论插件<br />
+3、会员系统模版开发<br />
+4、简化投稿功能，支持自动排版<br />
+5、同步生成手机版静态HTML<br />
+<br />
+<br />
+<strong>模版页面索引：</strong><br />
+<br />
+电脑站：<br />
+首页：http://demo.52jscn.com/<br />
+封面：http://demo.52jscn.com/meiwenxinshang/<br />
+列表：http://demo.52jscn.com/meiwenxinshang/meiwenzhaichao/<br />
+内容：http://demo.52jscn.com/meiwen/3010.html<br />
+<br />
+手机站：(请使用手机浏览器体验)<br />
+首页：http://m.demo.52jscn.com/<br />
+列表：http://m.demo.52jscn.com/list/1.html<br />
+内容：http://m.demo.52jscn.com/show/2829.html<br />
+<br />
+<br />
+其他列表：<br />
+最新：http://demo.52jscn.com/new/<br />
+图片：http://demo.52jscn.com/pic/<br />
+TAGS：http://demo.52jscn.com/tags-朋友.html<br />
+搜索：http://demo.52jscn.com/search-0-5.html<br />
+<br />
+单页：<br />
+关于我们：http://demo.52jscn.com/about/aboutus.html<br />
+友情链接：http://demo.52jscn.com/about/link.html<br />
+网站地图：http://demo.52jscn.com/sitemap.html<br />
+标签合集：http://demo.52jscn.com/tag.html<br />
+排版工具：http://demo.52jscn.com/about/paiban.html<br />
+<br />
+<br />
+会员及投稿系统：<br />
+http://demo.52jscn.com/e/member/login/<br />
+<br />
+请注册帐号登录体验<br />
+<br />
+<strong>更多关于二次开发内容请前往演示站体验！</strong><br />
+<br />
+<br />
+原始数据：内容量3千多条，图片附件20M<br />
+<br />
+采集：提供火车头免费版，免登录发布。采集目标站为  meiwen.com.cn<br />
+<br />
+<br />
+<br />
+<strong>空间需求：</strong><br />
+<br />
+环境必须为 PHP5.4.x +  MySQL5.0.x + Zeng 3.3.x。如果有不明白的地方清咨询在线销售<br />
+空间容量建议不低于5G<br />
+MySQL数据库  100M+<br />
+<br />
+<br />
+<br />
+<span style="BACKGROUND-COLOR: rgb(255,0,0)"><span style="COLOR: rgb(255,255,255)">重要提示：<br />
+<br />
+为防止贩子倒卖导致程序泛滥而影响购买客户的利益及对SEO的影响，本程序在不影响客户二次开发的前提下，部分核心文件使用ZEND加密了源码并绑定客户域名使用。<br />
+<br />
+同时我们加密的文件都是由我们二次开发的插件，绝不会含有后门木马之类的代码，客户可放心使用！</span></span></p>	 </div></div></div>
+	 <div class="handover">
+	 <div class="box">
+	   <span class='prev'>
+	 <a href='/meiwen/3036.html'>仿61儿童网站程序出售</a>	  </span>
+	  <span class="zan">
+              <a href="JavaScript:makeRequest('http://demo.52jscn.com/e/public/digg/?classid=69&id=3037&dotop=1&doajax=1&ajaxarea=diggnum','EchoReturnedText','GET','');" class="add"><em><b id="diggnum"><script src='http://demo.52jscn.com/e/public/ViewClick/?classid=69&id=3037&down=5'></script></b> 人喜欢</em></a>
+      </span>
+	    <span class='next'>
+	 <a href='http://demo.52jscn.com/gonggao/'>返回列表</a>	  </span></div>
+	 </div>
+	 	
+	 <div class="article_tag">
+	 <span class="tags ico-24">标签: </span> 
+ <span class="mark">
+	 <div class="likeitem">
+	 <a class="like" href="javascript:vod(0);" title="收藏本文" onclick="favorites('仿美文网站程序上架-美文网',location.href)"> <em class="dolike">收藏本文</em></a>
+	 </div>
+	 </span>
+</div>
+ <div class="a680"><script src="http://demo.52jscn.com/d/js/acmsd/thea7.js"></script> </div>
+	 <div class="likepic">
+	 <div class="top">
+	 <h3>你可能也喜欢这些</h3>	
+	 <span>	
+	 	 <div class="bdsharebuttonbox"><a class="bds_qzone" title="分享到QQ空间" href="javascript:;" data-cmd="qzone"></a><a class="bds_tsina" title="分享到新浪微博" href="javascript:;" data-cmd="tsina"></a><a class="bds_tqq" title="分享到腾讯微博" href="javascript:;" data-cmd="tqq"></a><a class="bds_renren" title="分享到人人网" href="javascript:;" data-cmd="renren"></a><a class="bds_weixin" title="分享到微信" href="javascript:;" data-cmd="weixin"></a><a class="bds_more" href="javascript:;" data-cmd="more"></a></div>
+	 </span>
+	 </div>
+	 <div class="photo">
+	 <ul class="box">
+	 	 </ul>
+	 </div>
+	 </div>
+	 <div id="pinglun">
+	 <div class="box">
+	<div id="SOHUCS" sid="69_3037"></div>
+	 </div>
+	 </div>
+  <div class="cl"></div>
+</div>
+</div>
+	 <div class="article-right">
+		 <div class="right-item">
+		 <div class="title"><h3>热点阅读</h3></div>
+		 <div class="box">
+				 <li><span class='a1'>1</span><a href="/meiwen/3034.html" title="团购仿《4493美图》网站程序">团购仿《4493美图》网站程序</a></li>
+		 		 <li><span class='a2'>2</span><a href="/meiwen/3036.html" title="仿61儿童网站程序出售">仿61儿童网站程序出售</a></li>
+		 		 <li><span class='a3'>3</span><a href="http://demo.52jscn.com/meiwen/3037.html" title="仿美文网站程序上架">仿美文网站程序上架</a></li>
+		 		 <li><span class='a4'>4</span><a href="/meiwen/3035.html" title="团购仿《砍柴》网站程序">团购仿《砍柴》网站程序</a></li>
+		 		 </div></div>
+		 	<div class="right-item">
+		 <div class="title"><h3>网友最爱</h3></div>
+		 <div class="box">
+		 		 <li><span class='a1'>1</span><a href="http://demo.52jscn.com/meiwen/3037.html" title="仿美文网站程序上架">仿美文网站程序上架</a></li>
+		 		 <li><span class='a2'>2</span><a href="/meiwen/3036.html" title="仿61儿童网站程序出售">仿61儿童网站程序出售</a></li>
+		 		 <li><span class='a3'>3</span><a href="/meiwen/3034.html" title="团购仿《4493美图》网站程序">团购仿《4493美图》网站程序</a></li>
+		 		 <li><span class='a4'>4</span><a href="/meiwen/3035.html" title="团购仿《砍柴》网站程序">团购仿《砍柴》网站程序</a></li>
+		 		 </div></div>
+		<div id="float">
+		<div class="right-item">
+		 <div class="title"><h3>赞助推荐</h3></div>
+		 <div class="a250"><script src="http://demo.52jscn.com/d/js/acmsd/thea5.js"></script> </div>
+		 </div>
+		  </div>
+     </div>
+     </div>
+  </div>
+  <div class="c1 container-bottom"></div>
+</div>
+<script type="text/javascript" src="http://demo.52jscn.com/skin/js/scrollad.js"></script>
+<script type="text/javascript" src="http://demo.52jscn.com/skin/js/gotop.js"></script>
+<script type="text/javascript" src="http://demo.52jscn.com/d/js/acmsd/thea8.js"></script>
+<div class="footer">
+    <p class="p_1">
+	<a href="http://demo.52jscn.com/about/aboutus.html" target="_blank">关于我们</a>|
+	<a href="http://demo.52jscn.com/about/service.html" target="_blank">服务条款</a>|
+	<a href="http://demo.52jscn.com/about/contact.html" target="_blank">联系我们</a>|
+	<a href="http://demo.52jscn.com/about/link.html" target="_blank">友情链接</a>|
+	<a href="http://demo.52jscn.com/baidunews.xml" target="_blank">RSS订阅</a>|
+	<a href="http://demo.52jscn.com/sitemap.html" target="_blank">网站地图</a>|
+	<a href="http://demo.52jscn.com/about/paiban.html" target="_blank"><b>排版工具</b></a>
+</p>
+<p class='p_2'>
+Copyright &copy; 2014-2015 <a href='http://www.meiwen.com.cn' title='05532美图' target='_blank'>05532.com</a> All Rights Reserved. 
+ <a href='http://www.miibeian.gov.cn/' target='_blank'>粤ICP备15019708号-4</a></p>
+<div class="footer_service">
+<p class="p_2">本站所收录作品、热点评论等信息部分来源互联网，目的只是为了系统归纳学习和传递资讯</p>
+<p class="p_2">所有作品版权归原创作者所有，与本站立场无关，如不慎侵犯了你的权益，请联系我们告知，我们将做删除处理！</p>
+</div>
+</div>
+<div style="display:none;">
+ #第三方统计代码(模版变量)
+</div>
+<script type="text/javascript" src="http://demo.52jscn.com/skin/js/pl.js"></script>
+</body>
+</html>

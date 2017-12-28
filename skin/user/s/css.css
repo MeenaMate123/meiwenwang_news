@@ -1,0 +1,74 @@
+﻿*{margin:0;padding:0}
+a{color:#009425;text-decoration:none}
+a:hover{color:#fe6400}
+ul,li{list-style-type:none}
+img{border:0}
+*::-moz-selection{color:#FFF;background:none repeat scroll 0 0 #009425}
+body{font-family:Microsoft Yahei;font-size:14px;color:#4c4c4c;background:#fafcfd;line-height:200%;background:#ECF7B5 url(userbg_son.jpg) center top no-repeat fixed}
+.noinfo{padding:20px;text-align:center;color:#999;font-size:12px}
+.dateline{color:#999}
+.tool_warp{width:100%;height:40px;background:url(tool_bg.png) repeat-x;position:fixed;z-index:1000;left:0;top:0}
+#tool{width:960px;height:40px;margin:0 auto;font-family:Microsoft Yahei;font-size:15px}
+#tool_logo{width:300px;height:22px;padding-top:7px;float:left;margin-left:10px}
+.tool_user{float:right;width:400px;height:40px;font-family:Microsoft Yahei;font-size:14px}
+.tool_user a{color:#4c4c4c;display:inline-block}
+.tool_user .cai{width:60px;padding-left:15px;background:url(icon_cai.png) no-repeat scroll 3px center transparent;display:inline-block;line-height:40px;margin-left:10px;}
+.tool_user .cai:hover{color:#009425}
+.tool_user .youke{width:500px;height:40px;line-height:40px;overflow:hidden;float:right;margin-right:5px;text-align:right;color:#DDD}
+.tool_user a{display:inline-block;padding:0 5px;font-size:12px}
+.tool_user a:hover{color:#009425}
+.tool_user b{color:#009425;font-size:16px}
+
+#main{width:960px;overflow:hidden;margin:80px auto 10px;background:url(mainbg.png) repeat-y scroll 0 0 transparent}
+#main_left{width:230px;overflow:hidden;float:left}
+#main_left h1{font-family:Microsoft Yahei,Arial,sans-serif;margin-bottom:10px;font-weight:normal}
+#main_right{width:730px;overflow:hidden;float:right;background:none repeat scroll 0 0 #fff;margin-bottom:-10000px;padding-bottom:10000px}
+#main_right ul,li{list-style:none}
+.snowbg{width:100%;height:100%;clear:both;margin:0 auto;position:relative;overflow:hidden}
+.snow{position:absolute;top:0;color:#fff}
+.user_pic{text-align:center;padding:40px 0}
+.user_pic a{width:180px;height:180px;overflow:hidden;display:block;border:0;border-radius:20px;margin:0 auto}
+.user_info{background:#86c89c;padding:20px}
+.user_info a{color:#fff}
+.user_info p{color:#ebfbef;font-family:Microsoft Yahei;line-height:20px}
+.user_menu{padding:25px 0 5px 15px;clear:both;width:230px;overflow:hidden}
+.user_dh{display:inline-block;background:url(green_btn_son.png) no-repeat left center;padding-left:5px;margin-right:12px;float:left}
+.user_dh span{display:inline-block;background:url(green_btn_son.png) no-repeat right center;height:24px;line-height:22px;padding-right:5px;color:#fff;white-space:nowrap;word-spacing:normal}
+.user_fans{padding:10px 0 20px 18px}
+.user_fans h2{font-weight:normal;color:#3cb469;font-weight:300;font-size:15px}
+.user_fans h2 strong{color:#50a15f}
+.user_visitor h2{background:#86c89c;padding:2px 20px;color:#fff;font-weight:Microsoft Yahei;font-size:15px;font-weight:300}
+.user_visitor .avatar_list{margin:10px 5px 20px 18px}
+.avatar_list{overflow:hidden;zoom:1}
+.avatar_list li{float:left;margin-right:10px;margin-top:10px;width:58px;height:80px;overflow:hidden;}
+.avatar_list a{display:block;border:0;margin:0 auto;font-size:12px;text-align:center;line-height:20px;}
+.user_music{margin:0 0 20px;background:#86c89c}
+.user_music h2{background:#86c89c;padding:2px 20px;color:#fff;font-weight:Microsoft Yahei;font-size:15px;font-weight:300}
+.user_right{margin:10px 0 0}
+.user_right .title{padding:20px 20px 10px 40px}
+.user_right .title a,.user_right .title h1{font-size:20px;font-family:Microsoft Yahei;color:#3cb469;background:url(titlebg_son.png) no-repeat left 8px;font-weight:300;padding:10px 10px 10px 30px}
+.user_right .title a:hover{color:#f16e50}
+.user_right ul{padding:0 20px 0 40px}
+.user_right ul li{border-bottom:1px dashed #dcdcdc;padding:0 0 8px;margin:10px 20px}
+.user_right ul li a{color:#549c52;margin:0 5px}
+.user_right ul li a:hover{color:#fe6400}
+.user_right ul li .d{color:#666}
+.user_right ul li .d p{margin:0;padding:0}
+.user_right .summary{padding:0 20px 0 40px;overflow:hidden;zoom:1}
+.user_right .artinfo{padding:10px 20px 10px 40px;height:30px;text-align:right;border-bottom:1.5px dashed #d8d8d8;color:#999;font-size:12px}
+.user_right .artinfo span{margin-right:10px;}
+.user_right .ainfo{width:300px;float:right}
+.user_right .ainfo a{color:#999}
+.user_right .time{color:#999;line-height:23px;padding:0 0 0 19px;background:url(icon_time.png) no-repeat scroll left 2px transparent;display:inline-block;height:20px}
+.user_right .up{color:#999;line-height:24px;padding:0 0 0 22px;background:url(icon_up.png) no-repeat scroll left 2px transparent;display:inline-block;height:20px}
+.user_right .wen{padding:0 0 0 22px;background:url('icon_wen.gif') no-repeat scroll left 2px transparent;height:12px}
+.user_right .ainfo .read{line-height:23px;padding:0 0 0 19px;background:url(icon_read.png) no-repeat scroll left 2px transparent;display:inline-block;height:20px;margin-right:10px;}
+.user_right .ainfo .book{line-height:20px;padding:0 0 0 22px;background:url(icon_book.png) no-repeat scroll left 2px transparent;display:inline-block;height:20px}
+.user_right .ainfo .like{line-height:20px;padding:0 0 0 22px;background:url(icon_like.png) no-repeat scroll left 2px transparent;display:inline-block;height:20px}
+.user_right .authortools{float:left;width:50px}
+.user_right .authortools a{color:#369}
+.user_right .spare{padding:20px;display:none;background:url(sidebg.png) repeat}
+.clickmore{ text-align:center; padding:25px 0px;}
+.clickmore a{ display:inline-block; width:500px; padding:10px 0px; margin:0 auto; text-align:center; background:#f8f8f8; color:#333; font:16px "Microsoft Yahei", simsun;}
+.clickmore a:hover{ background:#86C89C; color:#fff;}
+#footer{padding:10px 20px;font-size:12px;text-align:center;font-family:Arial,Helvetica,sans-serif}

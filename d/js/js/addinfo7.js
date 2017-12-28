@@ -1,0 +1,1 @@
+document.write("<option value=8>|-好词好句</option>");

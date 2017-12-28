@@ -1,0 +1,218 @@
+ID:26
+ַ:http://www.meiwen.com.cn/article/4879.html
+Header:HTTP/1.1 200 OK
+Date:Wed, 15 Jul 2015 01:23:59 GMT
+Server:Microsoft-IIS/6.0
+X-Powered-By:ASP.NET,PHP/5.4.28
+Content-Type:text/html; charset=utf-8
+Content-Length:1047
+
+Դ:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ϣʾ</title>
+<link href="adminstyle/1/adminstyle.css" rel="stylesheet" type="text/css">
+<SCRIPT language=javascript>
+var secs=2;//3
+for(i=1;i<=secs;i++) 
+{ window.setTimeout("update(" + i + ")", i * 1000);} 
+function update(num) 
+{ 
+if(num == secs) 
+{ history.go(-1); } 
+else 
+{ } 
+}
+</SCRIPT>
+</head>
+
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table width="500" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
+  <tr class="header"> 
+    <td height="25"><div align="center">Ϣʾ</div></td>
+  </tr>
+  <tr bgcolor="#FFFFFF"> 
+    <td height="80"> 
+      <div align="center">
+	  <br>
+        <b>ظ,Ӳɹ!</b>
+        <br>
+        <br><a href="javascript:history.go(-1)">ûԶת</a>
+<br><br>
+	  </div></td>
+  </tr>
+</table>
+</body>
+</html>
+========ָ=======
+ID:26
+ַ:http://www.meiwen.com.cn/article/4879.html
+Header:HTTP/1.1 200 OK
+Date:Thu, 16 Jul 2015 04:33:39 GMT
+Server:Microsoft-IIS/6.0
+X-Powered-By:ASP.NET,PHP/5.4.28
+Content-Type:text/html; charset=utf-8
+Content-Length:1047
+
+Դ:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ϣʾ</title>
+<link href="adminstyle/1/adminstyle.css" rel="stylesheet" type="text/css">
+<SCRIPT language=javascript>
+var secs=2;//3
+for(i=1;i<=secs;i++) 
+{ window.setTimeout("update(" + i + ")", i * 1000);} 
+function update(num) 
+{ 
+if(num == secs) 
+{ history.go(-1); } 
+else 
+{ } 
+}
+</SCRIPT>
+</head>
+
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table width="500" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
+  <tr class="header"> 
+    <td height="25"><div align="center">Ϣʾ</div></td>
+  </tr>
+  <tr bgcolor="#FFFFFF"> 
+    <td height="80"> 
+      <div align="center">
+	  <br>
+        <b>ظ,Ӳɹ!</b>
+        <br>
+        <br><a href="javascript:history.go(-1)">ûԶת</a>
+<br><br>
+	  </div></td>
+  </tr>
+</table>
+</body>
+</html>
+========ָ=======
+ID:26
+ַ:http://www.meiwen.com.cn/article/4879.html
+Header:HTTP/1.1 200 OK
+Date:Thu, 16 Jul 2015 17:02:37 GMT
+Server:Microsoft-IIS/6.0
+X-Powered-By:ASP.NET,PHP/5.4.28
+Content-Type:text/html; charset=utf-8
+Content-Length:1047
+
+Դ:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ϣʾ</title>
+<link href="adminstyle/1/adminstyle.css" rel="stylesheet" type="text/css">
+<SCRIPT language=javascript>
+var secs=2;//3
+for(i=1;i<=secs;i++) 
+{ window.setTimeout("update(" + i + ")", i * 1000);} 
+function update(num) 
+{ 
+if(num == secs) 
+{ history.go(-1); } 
+else 
+{ } 
+}
+</SCRIPT>
+</head>
+
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table width="500" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
+  <tr class="header"> 
+    <td height="25"><div align="center">Ϣʾ</div></td>
+  </tr>
+  <tr bgcolor="#FFFFFF"> 
+    <td height="80"> 
+      <div align="center">
+	  <br>
+        <b>ظ,Ӳɹ!</b>
+        <br>
+        <br><a href="javascript:history.go(-1)">ûԶת</a>
+<br><br>
+	  </div></td>
+  </tr>
+</table>
+</body>
+</html>
+========ָ=======
+ID:26
+ַ:http://www.meiwen.com.cn/article/4879.html
+Header:HTTP/1.1 200 OK
+Connection:close
+Date:Fri, 17 Jul 2015 11:59:20 GMT
+Content-Type:text/html; charset=utf-8
+Server:IIS
+X-Powered-By:WAF/2.0,WAF/2.0
+Set-Cookie:safedog-flow-item=0C414587B4080F04C62E11FE; expires=Fri, 17-Jul-2015 15:59:20 GMT; domain=bbs.52jscn.com; path=/
+Content-Length:1047
+
+Դ:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ϣʾ</title>
+<link href="adminstyle/1/adminstyle.css" rel="stylesheet" type="text/css">
+<SCRIPT language=javascript>
+var secs=2;//3
+for(i=1;i<=secs;i++) 
+{ window.setTimeout("update(" + i + ")", i * 1000);} 
+function update(num) 
+{ 
+if(num == secs) 
+{ history.go(-1); } 
+else 
+{ } 
+}
+</SCRIPT>
+</head>
+
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table width="500" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
+  <tr class="header"> 
+    <td height="25"><div align="center">Ϣʾ</div></td>
+  </tr>
+  <tr bgcolor="#FFFFFF"> 
+    <td height="80"> 
+      <div align="center">
+	  <br>
+        <b>ظ,Ӳɹ!</b>
+        <br>
+        <br><a href="javascript:history.go(-1)">ûԶת</a>
+<br><br>
+	  </div></td>
+  </tr>
+</table>
+</body>
+</html>
+========ָ=======

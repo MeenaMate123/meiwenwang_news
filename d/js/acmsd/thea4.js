@@ -1,0 +1,1 @@
+document.write("<div class=\"ad-960\"></div>")
